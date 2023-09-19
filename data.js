@@ -1,3 +1,5 @@
+const baseUrl = process.env.BASE_URL || 'http://localhost:5000';
+
 const photoCards = [
   {
     id: 1,
@@ -5,16 +7,16 @@ const photoCards = [
     author: 'Борис',
     images: {
       mobile: {
-        src: './methods-public/img/spaces.webp',
-        x2: './methods-public/img/spaces@2x.webp',
+        src: `${baseUrl}/img/spaces.webp`,
+        x2: `${baseUrl}/img/spaces@2x.webp`,
       },
       tablet: {
-        src: './methods-public/img/spaces-desktop.webp',
-        x2: './methods-public/img/spaces-desktop@2x.webp',
+        src: `${baseUrl}/img/spaces-desktop.webp`,
+        x2: `${baseUrl}/img/spaces-desktop@2x.webp`,
       },
       desktop: {
-        src: './methods-public/img/spaces-desktop-wide.webp',
-        x2: './methods-public/img/spaces-desktop-wide@2x.webp',
+        src: `${baseUrl}/img/spaces-desktop-wide.webp`,
+        x2: `${baseUrl}/img/spaces-desktop-wide@2x.webp`,
       },
     },
     likes: 1350,
@@ -25,16 +27,16 @@ const photoCards = [
     author: 'Сергей',
     images: {
       mobile: {
-        src: './methods-public/img/vegetation.webp',
-        x2: './methods-public/img/vegetation@2x.webp',
+        src: `${baseUrl}/img/vegetation.webp`,
+        x2: `${baseUrl}/img/vegetation@2x.webp`,
       },
       tablet: {
-        src: '',
-        x2: '',
+        src: ``,
+        x2: ``,
       },
       desktop: {
-        src: './methods-public/img/vegetation-desktop.webp',
-        x2: './methods-public/img/vegetation-desktop@2x.webp',
+        src: `${baseUrl}/img/vegetation-desktop.webp`,
+        x2: `${baseUrl}/img/vegetation-desktop@2x.webp`,
       },
     },
     likes: 143,
@@ -45,16 +47,16 @@ const photoCards = [
     author: 'Петр',
     images: {
       mobile: {
-        src: './methods-public/img/road-to-the-north.webp',
-        x2: './methods-public/img/road-to-the-north@2x.webp',
+        src: `${baseUrl}/img/road-to-the-north.webp`,
+        x2: `${baseUrl}/img/road-to-the-north@2x.webp`,
       },
       tablet: {
-        src: '',
-        x2: '',
+        src: ``,
+        x2: ``,
       },
       desktop: {
-        src: './methods-public/img/road-to-the-north-desktop.webp',
-        x2: './methods-public/img/road-to-the-north-desktop@2x.webp',
+        src: `${baseUrl}/img/road-to-the-north-desktop.webp`,
+        x2: `${baseUrl}/img/road-to-the-north-desktop@2x.webp`,
       },
     },
     likes: 96,
@@ -65,16 +67,16 @@ const photoCards = [
     author: 'Антон',
     images: {
       mobile: {
-        src: './methods-public/img/devil-bridge.webp',
-        x2: './methods-public/img/devil-bridge@2x.webp',
+        src: `${baseUrl}/img/devil-bridge.webp`,
+        x2: `${baseUrl}/img/devil-bridge@2x.webp`,
       },
       tablet: {
-        src: '',
-        x2: '',
+        src: ``,
+        x2: ``,
       },
       desktop: {
-        src: './methods-public/img/devil-bridge-desktop.webp',
-        x2: './methods-public/img/devil-bridge-desktop@2x.webp',
+        src: `${baseUrl}/img/devil-bridge-desktop.webp`,
+        x2: `${baseUrl}/img/devil-bridge-desktop@2x.webp`,
       },
     },
     likes: 254,
