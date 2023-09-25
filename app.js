@@ -7,7 +7,7 @@ const video = require('./routes/video.js')
 const PORT = process.env.PORT || 5000;
 
 const corsOptions = {
-  origin: 'https://sedona-nuxt.vercel.app/',
+  origin: 'https://sedona-nuxt.vercel.app',
   methods: 'GET,POST',
   credentials: true,
 }
