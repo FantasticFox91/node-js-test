@@ -82,4 +82,12 @@ const photoCards = [
     likes: 254,
   },
 ]
-module.exports = { photoCards }
+
+const video = {
+  id: 1,
+  src: `${baseUrl}/img/free-video.mp4`
+}
+
+let reviews = [];
+
+module.exports = { photoCards, reviews, video }
